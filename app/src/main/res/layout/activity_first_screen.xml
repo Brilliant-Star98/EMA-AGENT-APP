@@ -21,7 +21,7 @@
             android:layout_height="@dimen/dp_100"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo_animation" />
     </RelativeLayout>
 
 

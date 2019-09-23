@@ -6,7 +6,7 @@
     android:layout_height="?attr/actionBarSize"
     android:layout_margin="0dp"
     android:elevation="@dimen/dp_10"
-    android:background="@color/colorPrimary"
+    android:background="@color/card_back_color_1"
     android:contentInsetLeft="10dp"
     android:contentInsetRight="10dp"
     android:contentInsetStart="10dp"

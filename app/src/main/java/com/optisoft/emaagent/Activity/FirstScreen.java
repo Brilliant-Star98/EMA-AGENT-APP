@@ -14,7 +14,7 @@ import com.github.florent37.viewanimator.ViewAnimator;
 public class FirstScreen extends AppCompatActivity {
 
     private ImageView logo;
-    private final int SPLASH_DISPLAY_LENGTH = 3000;
+    private final int SPLASH_DISPLAY_LENGTH = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class FirstScreen extends AppCompatActivity {
                 .waitForHeight() //wait until a ViewTreeObserver notification
                 .dp().width(0,200)
                 .dp().height(0,100)
+                .duration(1500)
                 .start();
 
         new Handler().postDelayed(new Runnable(){
@@ -45,7 +46,7 @@ public class FirstScreen extends AppCompatActivity {
 
     private void setupWindowAnimations() {
         Slide slide = new Slide();
-        slide.setDuration(1000);
+        slide.setDuration(1500);
         getWindow().setExitTransition(slide);
     }
 

@@ -29,8 +29,8 @@ public class ApiConstant {
 
     /**************************************** API CONSTANTS START ***************************************************/
 
-    //public static final String API_BASE_URL               = "http://etha.in/ema/admin/";
-    public static final String API_BASE_URL               = "http://10.0.2.2/ema/admin/";
+    public static final String API_BASE_URL               = "http://etha.in/ema/admin/";
+//    public static final String API_BASE_URL               = "http://10.0.2.2/ema/admin/";
     public static final String API_VERIFY_AGENT           = "Api/verifyAgentCode/{agent_code}";
     public static final String API_SIGN_UP_USER           = "Api/registerUser";
     public static final String API_SIGN_UP_HELPER         = "Api/registerHelper";
